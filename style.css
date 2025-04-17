@@ -1,0 +1,280 @@
+*{
+   backgroun 
+}
+
+
+
+
+
+/*Menu Section*/
+.menu-container{
+    max-width:1200px ;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #33333373;
+    box-shadow: 0 2px 8px rgba(0, 0,0, 0.1);
+    border-radius: 10px;
+}
+
+.menu-title{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color:;
+}
+
+.food-menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+
+
+}
+
+.food-item{
+    position: relative;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.food-item img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.food-info{
+    padding: 15px;
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+}
+
+.food-info h3{
+    font-size: 22px;
+    margin: 10px 0;
+    color: #727272;
+}
+
+.food-info p{
+    font-size: 16px;
+    color: #777;
+}
+
+.food-item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0,0, 0.1);
+}
+
+.food-item:hover .food-info{
+    background-color: #33333373;
+}
+
+/*Feedback*/
+.feedback{
+    text-align: center;
+    padding: 50px;
+    background-color:#33333373;
+}
+
+.feedback h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.feedback p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #535353;
+}
+
+.feedback-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    gap: 30px;
+}
+
+.feedback-form{
+  padding: 20px;
+  border-radius: 20px;
+  width: 350px;
+  text-align:left ;
+}
+
+.feedback-form h3{
+    margin-bottom: 10px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #33333373;
+    border-radius: 5px;
+}
+
+.fee textarea{
+    height: 100px;
+    resize: none;
+}
+
+.feedback-form button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    background: rgba(40, 40, 40, 0.774);
+}
+
+.feedback-form button:hover{
+    background: #33333373;
+}
+
+/*gallery*/
+.gallery{
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px ;
+    background-color: #33333373;
+}
+
+.gallery h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.gallery-item{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    
+
+}
+
+.gallery-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.gallery-item:hover img{
+    transform: scale(1.1);
+}
+
+/*c0ntact us*/
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 60px;
+    resize:vertical;
+    background-color: #33333373;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.form-data{
+    
+    font-size: 20px;
+    text-align: left;
+}
+
+.form-data input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #33333373;
+    border-radius: 5px;
+}
+
+button{
+    border-radius: 8px;
+    background-color: #33333373;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#s-b{
+    background-color: #33333373;
+}
+
+#s-b:hover{
+    background-color: #7777772a;
+}
+
+/*about*/
+
+.staff-container{
+    max-width:1500px ;
+    margin: 40px auto;
+    margin-top: 90px;
+    padding: 10px;
+    background-color: #33333373;
+    box-shadow: 0 2px 8px rgba(0, 0,0, 0.1);
+    border-radius: 10px;
+}
+
+.staff-container h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.three-mamber{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+   
+.profil{
+    position: relative;
+    padding-left: 12px;
+    text-align: center;
+    
+}
+
+.profil img{
+    width: auto;
+    height:300px ;
+    
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    
+    
+}
+
+/*footer*/
+#footer{
+    background-color: #33333373;
+    text-align: center;
+    margin-top: 100px;
+}
+    
